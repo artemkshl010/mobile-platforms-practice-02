@@ -151,10 +151,10 @@ Flutter зазвичай повторно використовує Element, ко
 
 11. Джерела
 
-1. Flutter Documentation. Inside Flutter. https://docs.flutter.dev/resources/inside-flutter
-2. Flutter Documentation. Widget class. https://api.flutter.dev/flutter/widgets/Widget-class.html
-3. Flutter Documentation. Element class. https://api.flutter.dev/flutter/widgets/Element-class.html
-4. Flutter Documentation. RenderObject class. https://api.flutter.dev/flutter/rendering/RenderObject-class.html
-5. Flutter Documentation. StatefulWidget class. https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html
+* Flutter Documentation. Inside Flutter. https://docs.flutter.dev/resources/inside-flutter
+* Flutter Documentation. Widget class. https://api.flutter.dev/flutter/widgets/Widget-class.html
+* Flutter Documentation. Element class. https://api.flutter.dev/flutter/widgets/Element-class.html
+* Flutter Documentation. RenderObject class. https://api.flutter.dev/flutter/rendering/RenderObject-class.html
+* Flutter Documentation. StatefulWidget class. https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html
 
 Дата звернення до джерел: 22.10.2026.
