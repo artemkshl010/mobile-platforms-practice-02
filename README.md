@@ -71,9 +71,12 @@ flowchart TD
 
 У прикладі нижче натискання кнопки збільшує лічильник. Значення тексту змінюється, але тип віджета Text залишається тим самим.
 
+```dart
 import 'package:flutter/material.dart';
 
-void main() => runApp(const MaterialApp(home: CounterPage()));
+void main() {
+  runApp(const MaterialApp(home: CounterPage()));
+}
 
 class CounterPage extends StatefulWidget {
   const CounterPage({super.key});
@@ -103,6 +106,7 @@ class _CounterPageState extends State<CounterPage> {
     );
   }
 }
+```
 
 Після натискання кнопки Flutter повторно викликає build() для відповідного станового віджета. Створюються нові конфігурації, зокрема Text з оновленим рядком. За сумісності типу та ключа відповідні Element можуть бути повторно використані. Об’єкти рендерингу оновлюються відповідно до зміненого тексту.
 
