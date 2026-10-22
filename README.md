@@ -70,14 +70,19 @@ flowchart TD
 У прикладі нижче натискання кнопки збільшує лічильник. Значення тексту змінюється, але тип віджета Text залишається тим самим.
 
 import 'package:flutter/material.dart';
+
 void main() => runApp(const MaterialApp(home: CounterPage()));
+
 class CounterPage extends StatefulWidget {
   const CounterPage({super.key});
+
   @override
   State<CounterPage> createState() => _CounterPageState();
 }
+
 class _CounterPageState extends State<CounterPage> {
   int count = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -118,7 +123,7 @@ flowchart TD
     F --> G["Створюється новий Element"]
     G --> H["Створюється відповідний RenderObject"]
     H --> I["Нове компонування та малювання за потреби"]
-
+    
 У цьому випадку зміна типу порушує умову повторного використання Element. Тому Flutter створює новий Element, а RenderObject оновлюється або створюється відповідно до вимог нового віджета.
 
 9. Правило повторного використання Element
